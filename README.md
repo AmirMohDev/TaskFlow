@@ -1,12 +1,31 @@
-# React + Vite
+## 🚀 Features
+- ✅ Add new tasks
+- 🗑️ Remove completed tasks
+- ✔️ Mark tasks as completed
+- 📊 View overall progress in a progress bar
+- 🌙 Dark & Light mode support
+- 🔄 Fully responsive design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Built With
+- [React.js](https://reactjs.org/) – Front-end library
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
+- [Redux](https://redux.js.org/) – State management
+- [React Router](https://reactrouter.com/) – Client-side routing
+1. Clone the repository:
 
-Currently, two official plugins are available:
+git clone https://github.com/YOUR_USERNAME/todoflow.git
+Install dependencies:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+bash
+Copy code
+npm install
+Run the development server:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+npm start
+Build for production:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy code
+npm run build
